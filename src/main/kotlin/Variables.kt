@@ -1,6 +1,6 @@
 
 /** variables */
-fun main(args:Array<String>) {
+fun main() {
 
     //Variables Inmutables: su valor no puede ser cambiado
     val anoNacimiento: Int = 2002
@@ -38,4 +38,14 @@ fun main(args:Array<String>) {
     println("Mi peso: $miPeso")
     println("Talla: $miTalla")
     println("Inicial nombre: $inicialNombre")
+
+    //variables nulos (evito error:null pointer exception)
+    //conciste en asignar inicoalmente un valor nulo a mi varible
+    var numeroCasa: Int? = null
+    numeroCasa= 375
+    println(numeroCasa)
+
+    var nuevoAlumno: String? = null
+    nuevoAlumno = "jaimito"
+    println(nuevoAlumno)
 }
